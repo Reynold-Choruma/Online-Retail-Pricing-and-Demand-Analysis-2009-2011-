@@ -7,7 +7,7 @@ The analysis focuses on pricing effectiveness, demand sensitivity, and customer-
 
 ---
 
-## 🧠 Business Questions
+## Business Questions
 1. Do discounts increase net revenue, or do they primarily lift sales volume?
 2. Which products exhibit elastic vs inelastic demand?
 3. Which customers destroy margin at scale due to heavy discount reliance?
@@ -29,7 +29,7 @@ Transaction-level invoice data
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 - Removed cancelled invoices (Invoice starting with `"C"`)
 - Removed returns (negative quantities)
 - Dropped duplicate rows
@@ -83,7 +83,7 @@ High revenue does not equal high value. Customer strategy should be guided by **
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 - Discounts should be applied where elasticity justifies them
 - Inelastic products can sustain margin-accretive price increases
 - Revenue is a misleading metric without profitability context
@@ -98,7 +98,7 @@ High revenue does not equal high value. Customer strategy should be guided by **
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 - Introduce category-level pricing rules
 - Implement regression-based elasticity models
 - Incorporate customer lifetime value (CLV)
@@ -106,7 +106,7 @@ High revenue does not equal high value. Customer strategy should be guided by **
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - **Python:** pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn
 - **Environment:** Jupyter Notebook
